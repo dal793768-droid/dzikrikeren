@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Fiber Optic - TKJ</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7fb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0066cc, #00a8ff);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #003d7a;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00d9ff;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        .card {
+            background-color: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .card h2 {
+            color: #0066cc;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #003d7a;
+            margin-top: 15px;
+        }
+
+        ul, ol {
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+
+        .highlight {
+            background-color: #e8f5ff;
+            padding: 15px;
+            border-left: 5px solid #0066cc;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #0066cc;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 12px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .footer {
+            background-color: #003d7a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        .nama {
+            font-weight: bold;
+            color: #00d9ff;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 26px;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px;
+            }
+
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Materi Fiber Optic</h1>
+        <p>Teknik Komputer dan Jaringan (TKJ)</p>
+        <p>Nama Siswa: <span class="nama">Muhammad Dzikri Al Hasbyi</span></p>
+    </header>
+
+    <!-- Navigasi -->
+    <nav>
+        <a href="#pengertian">Pengertian</a>
+        <a href="#jenis">Jenis</a>
+        <a href="#alat">Alat</a>
+        <a href="#kelebihan">Kelebihan</a>
+        <a href="#pemasangan">Pemasangan</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Pengertian -->
+        <section class="card" id="pengertian">
+            <h2>1. Pengertian Fiber Optic</h2>
+
+            <p>
+                Fiber optic atau serat optik adalah media transmisi yang
+                menggunakan serat kaca atau plastik untuk mengirimkan data
+                dalam bentuk cahaya.
+            </p>
+
+            <div class="highlight">
+                <strong>Kesimpulan:</strong>
+                Fiber optic digunakan untuk mengirim data dengan kecepatan
+                tinggi dan jarak yang jauh.
+            </div>
+        </section>
+
+        <!-- Cara Kerja -->
+        <section class="card">
+            <h2>2. Cara Kerja Fiber Optic</h2>
+
+            <p>
+                Fiber optic bekerja dengan cara mengubah data listrik menjadi
+                sinyal cahaya. Cahaya tersebut kemudian dikirim melalui serat
+                optik menggunakan prinsip pemantulan total.
+            </p>
+
+            <h3>Prosesnya:</h3>
+
+            <ol>
+                <li>Data dikirim dari perangkat jaringan.</li>
+                <li>Data listrik diubah menjadi cahaya.</li>
+                <li>Cahaya merambat melalui kabel fiber optic.</li>
+                <li>Cahaya diterima oleh perangkat penerima.</li>
+                <li>Sinyal cahaya diubah kembali menjadi data listrik.</li>
+            </ol>
+        </section>
+
+        <!-- Jenis -->
+        <section class="card" id="jenis">
+            <h2>3. Jenis-Jenis Fiber Optic</h2>
+
+            <table>
+                <tr>
+                    <th>Jenis</th>
+                    <th>Keterangan</th>
+                </tr>
+
+                <tr>
+                    <td>Single Mode</td>
+                    <td>
+                        Memiliki inti kecil dan digunakan untuk transmisi
+                        jarak jauh dengan bandwidth tinggi.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Multi Mode</td>
+                    <td>
+                        Memiliki inti lebih besar dan biasanya digunakan
+                        untuk jarak yang lebih pendek.
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Bagian Kabel -->
+        <section class="card">
+            <h2>4. Bagian-Bagian Fiber Optic</h2>
+
+            <ul>
+                <li><strong>Core</strong> - bagian inti tempat cahaya merambat.</li>
+                <li><strong>Cladding</strong> - lapisan yang menjaga cahaya tetap berada di dalam core.</li>
+                <li><strong>Coating</strong> - lapisan pelindung serat optik.</li>
+                <li><strong>Strength Member</strong> - memberikan kekuatan pada kabel.</li>
+                <li><strong>Outer Jacket</strong> - lapisan terluar yang melindungi kabel.</li>
+            </ul>
+        </section>
+
+        <!-- Alat -->
+        <section class="card" id="alat">
+            <h2>5. Alat-Alat Fiber Optic</h2>
+
+            <ul>
+                <li>Fiber Optic Splicer</li>
+                <li>Fusion Splicer</li>
+                <li>Fiber Cleaver</li>
+                <li>Stripper</li>
+                <li>Optical Power Meter</li>
+                <li>Visual Fault Locator (VFL)</li>
+                <li>Fiber Optic Adapter</li>
+                <li>Patch Cord</li>
+            </ul>
+        </section>
+
+        <!-- Kelebihan -->
+        <section class="card" id="kelebihan">
+            <h2>6. Kelebihan dan Kekurangan</h2>
+
+            <h3>Kelebihan:</h3>
+            <ul>
+                <li>Kecepatan transmisi sangat tinggi.</li>
+                <li>Dapat digunakan untuk jarak jauh.</li>
+                <li>Tidak mudah terkena gangguan elektromagnetik.</li>
+                <li>Bandwidth besar.</li>
+                <li>Lebih aman dari penyadapan dibandingkan kabel tembaga.</li>
+            </ul>
+
+            <h3>Kekurangan:</h3>
+            <ul>
+                <li>Biaya pemasangan relatif mahal.</li>
+                <li>Pemasangan membutuhkan keterampilan khusus.</li>
+                <li>Serat optik lebih mudah rusak jika ditekuk berlebihan.</li>
+            </ul>
+        </section>
+
+        <!-- Pemasangan -->
+        <section class="card" id="pemasangan">
+            <h2>7. Langkah Dasar Pemasangan Fiber Optic</h2>
+
+            <ol>
+                <li>Siapkan kabel fiber optic.</li>
+                <li>Kupas bagian pelindung kabel menggunakan stripper.</li>
+                <li>Bersihkan serat optik.</li>
+                <li>Potong serat menggunakan fiber cleaver.</li>
+                <li>Lakukan penyambungan menggunakan fusion splicer.</li>
+                <li>Lindungi hasil sambungan.</li>
+                <li>Lakukan pengujian menggunakan Optical Power Meter atau VFL.</li>
+            </ol>
+        </section>
+
+        <!-- Kesimpulan -->
+        <section class="card">
+            <h2>8. Kesimpulan</h2>
+
+            <p>
+                Fiber optic merupakan teknologi jaringan yang menggunakan
+                cahaya sebagai media untuk mengirimkan data. Teknologi ini
+                memiliki kecepatan tinggi, bandwidth besar, dan dapat
+                digunakan untuk komunikasi jarak jauh.
+            </p>
+
+            <div class="highlight">
+                <strong>Materi:</strong> Fiber Optic (FO)<br>
+                <strong>Jurusan:</strong> Teknik Komputer dan Jaringan (TKJ)<br>
+                <strong>Nama:</strong> Muhammad Dzikri Al Hasbyi
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Materi TKJ - Fiber Optic</p>
+        <p>Muhammad Dzikri Al Hasbyi</p>
+    </footer>
+
+</body>
+</html>
